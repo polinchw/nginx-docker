@@ -7,4 +7,4 @@ This will listen on port 22257 and will forward it to port 33357 listening on th
 docker build . -t hello-nginx
 
 ## docker run command
-docker run -d --net=host -p 22257:22257 hello-nginx
+docker run -d --net=host -p 22251:22251 -p 22257:22257 hello-nginx
