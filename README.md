@@ -1,6 +1,8 @@
 # nginx-docker
 A simple Nginx reverse-proxy that runs on Docker.
 
+This will listen on port 22257 and will forward it to port 33357 listening on the localhost.
+
 ## docker build command
 docker build . -t hello-nginx
 
